@@ -1,9 +1,5 @@
-import React from 'react';
-class Ranco extends React.Component {
-  render() {
-    return (
-      <div>This is so Ranco!</div>
-    );
-  }
+import Ranco from './components/Ranco';
+export {
+	Ranco
 }
 export default Ranco;
