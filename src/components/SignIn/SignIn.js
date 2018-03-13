@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {Field, reduxForm} from 'redux-form';
 
+import * as actions from '../../components/actions';
+
+import { TOKEN } from '../../components/helper/constants';
 
 
 const renderField = ({ input, label, type, meta: { touched, error, warning } }) => (
@@ -80,7 +83,6 @@ class SignInForm extends Component {
         {showForm && (!token || !tokenProps)
           ? <form className={sighInForm}
             onSubmit={handleSubmit(this.handleFormSubmit)}>
-            <ComponentLoader />
             <div className={errorStyle} >{errorMessage}</div>
             <div className='input-hold-2 col-md-12'>
               <Field
