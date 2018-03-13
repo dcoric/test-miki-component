@@ -1,0 +1,23 @@
+.parent{
+  position: relative;
+}
+.parent.sighInForm{
+    position: absolute;
+    top:39px;
+    background-color: blueviolet;
+    z-index: 150;
+    width: 350px;
+  }
+.parent.btn{
+    background-color: coral;
+    color: greenyellow; 
+  }
+.parent.btnActive{
+    background-color: royalblue;
+    color: wheat; 
+  }
+.parent.error-m{
+    padding: 10px 30px;
+    background-color: yellowgreen;
+    color: red;
+  }
