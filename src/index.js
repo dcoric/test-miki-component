@@ -1,5 +1,5 @@
-import Ranco from './components/Ranco';
+import App from './components/App';
 export {
-	Ranco
+	App
 }
-export default Ranco;
+export default App;
